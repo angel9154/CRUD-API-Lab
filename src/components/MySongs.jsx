@@ -30,7 +30,8 @@ const MySongs = () => {
                 <ul>
                     {songs.map((song) => (
                         <li key={song._id}>
-                            <strong>{song.title}</strong> by {song.artist}
+                            <strong>{song.title}</strong> by {song.artist} <br></br>
+                            Produced by: {song.producers}
                         </li>
                     ))}
                 </ul>
